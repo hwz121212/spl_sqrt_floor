@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{EE4ED9BA-F5AC-4AE5-B19F-49603D5A5BB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspl_sqrt_floor", "thirdparty\spl_sqrt_floor\libspl_sqrt_floor.vcxproj", "{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Debug|x64.ActiveCfg = Debug|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Debug|x64.Build.0 = Debug|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Release|x64.ActiveCfg = Release|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538} = {EE4ED9BA-F5AC-4AE5-B19F-49603D5A5BB1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
+	EndGlobalSection
+EndGlobal
